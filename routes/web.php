@@ -34,6 +34,6 @@ Route::view('/contacto', 'contact')->name('contact');
 Route::post('contact', 'MessageController@store')->name('messages.store');
 
 Auth::routes(['register'=>true]);
-
+//Auth::Route();
 
 //Route::get('/home', 'HomeController@index')->name('home');
